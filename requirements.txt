@@ -2,5 +2,6 @@ gradio
 fastapi
 uvicorn[standard]
 pydantic
+pydantic-settings
 python-dotenv
 httpx

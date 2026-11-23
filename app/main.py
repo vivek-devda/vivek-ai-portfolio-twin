@@ -1,17 +1,19 @@
 
 from fastapi import FastAPI
 
+from app.core.config import settings
+
 app = FastAPI(
-    title="Vivek AI Portfolio Twin",
+    title=settings.app_name,
     description="An AI-powered professional portfolio assistant.",
-    version="0.1.0",
+    version=settings.app_version,
 )
 
 
 @app.get("/")
 async def root():
     return {
-        "message": "Vivek AI Portfolio Twin API is running!",
+        "message": f"{settings.app_name} API is running!",
         "status": "healthy",
     }
 
