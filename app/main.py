@@ -1,6 +1,6 @@
-
 from fastapi import FastAPI
 
+from app.api.routes import router
 from app.core.config import settings
 
 app = FastAPI(
@@ -9,18 +9,4 @@ app = FastAPI(
     version=settings.app_version,
 )
 
-
-@app.get("/")
-async def root():
-    return {
-        "message": f"{settings.app_name} API is running!",
-        "status": "healthy",
-    }
-
-
-@app.get("/health")
-async def health_check():
-    return {
-        "status": "healthy",
-        "service": "vivek-ai-portfolio-twin",
-    }
+app.include_router(router)
