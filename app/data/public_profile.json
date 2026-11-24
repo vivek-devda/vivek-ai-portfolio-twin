@@ -1,0 +1,167 @@
+ 
+{
+  "identity": {
+    "name": "Vivek Devda",
+    "headline": "Python Backend Developer | Applied AI & Automation",
+    "location": "Indore, India",
+    "linkedin_url": "https://www.linkedin.com/in/vivek-devda/",
+    "email": "vivek.devda.ml@gmail.com"
+  },
+  "education": [
+    {
+      "degree": "B.Tech",
+      "specialization": "Artificial Intelligence and Machine Learning",
+      "institution": "Acropolis Institute of Technology & Research",
+      "start_year": 2023,
+      "expected_final_semester_exam": "December 2027"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming",
+      "proficiency_level": "Implemented",
+      "evidence": "Backend applications, NLP projects, automation pipelines and AI-assisted development"
+    },
+    {
+      "name": "C/C++",
+      "category": "Programming",
+      "proficiency_level": "Familiar"
+    },
+    {
+      "name": "Flask",
+      "category": "Backend",
+      "proficiency_level": "Implemented",
+      "evidence": "AI-Powered Hiring Assistant"
+    },
+    {
+      "name": "FastAPI",
+      "category": "Backend",
+      "proficiency_level": "Familiar",
+      "evidence": "Practised basic GET and POST endpoints with Uvicorn; currently developing a FastAPI application"
+    },
+    {
+      "name": "REST APIs",
+      "category": "Backend",
+      "proficiency_level": "Implemented",
+      "evidence": "Flask applications and FastAPI practice"
+    },
+    {
+      "name": "SQLite",
+      "category": "Databases",
+      "proficiency_level": "Implemented",
+      "evidence": "Persistent storage in AI-Powered Hiring Assistant"
+    },
+    {
+      "name": "Scikit-learn",
+      "category": "Machine Learning",
+      "proficiency_level": "Familiar"
+    },
+    {
+      "name": "Machine Learning Fundamentals",
+      "category": "Machine Learning",
+      "proficiency_level": "Conceptual Understanding",
+      "evidence": "Understands training experiments, epochs, accuracy, overfitting and underfitting"
+    },
+    {
+      "name": "NLP",
+      "category": "Artificial Intelligence",
+      "proficiency_level": "Implemented",
+      "evidence": "Offline chatbot and AI-Powered Hiring Assistant"
+    },
+    {
+      "name": "TF-IDF",
+      "category": "Machine Learning",
+      "proficiency_level": "Implemented",
+      "evidence": "Resume matching and candidate ranking"
+    },
+    {
+      "name": "NLTK",
+      "category": "Artificial Intelligence",
+      "proficiency_level": "Implemented",
+      "evidence": "NLP-Based Offline Chatbot"
+    },
+    {
+      "name": "Git and GitHub",
+      "category": "Development Tools",
+      "proficiency_level": "Implemented",
+      "evidence": "Personal projects and merged open-source contribution"
+    },
+    {
+      "name": "Linux CLI",
+      "category": "Development Tools",
+      "proficiency_level": "Familiar"
+    },
+    {
+      "name": "AI Agent-Assisted Development",
+      "category": "Development Workflow",
+      "proficiency_level": "Practical Experience",
+      "evidence": "Used prompting and iterative direction to guide AI agents through technical implementation and experimentation"
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Hiring Assistant",
+      "description": "A privacy-focused resume screening application supporting candidate ranking, skill-gap analysis, recruiter outreach generation and persistent local storage.",
+      "technologies": [
+        "Python",
+        "Flask",
+        "Scikit-learn",
+        "TF-IDF",
+        "SQLite",
+        "PDF Processing"
+      ],
+      "github_url": "https://github.com/vivek-devda/offline-ai-hiring-assistant",
+      "demo_url": "https://offline-ai-hiring-assistant.onrender.com"
+    },
+    {
+      "name": "Content Generation Automation Pipeline",
+      "description": "A multi-stage automation pipeline that converts user-provided topics into captioned MP4 videos through automated media processing and rendering.",
+      "technologies": [
+        "Python",
+        "MoviePy",
+        "Pillow"
+      ],
+      "github_url": "https://github.com/vivek-devda/ai-video-generation-pipeline"
+    },
+    {
+      "name": "NLP-Based Offline Chatbot",
+      "description": "An offline chatbot using text preprocessing, intent recognition, fuzzy matching and a structured JSON knowledge base without external API dependencies.",
+      "technologies": [
+        "Python",
+        "NLTK",
+        "NLP",
+        "JSON",
+        "PyPDF"
+      ],
+      "github_url": "https://github.com/vivek-devda/nlp-offline-chatbot"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "GS-JTI Technical Assessment - Explainable Surface Inspection",
+      "description": "Received Grade A (Top 25%). Used an AI agent through iterative prompting to implement and explore model-training experiments. Guided training configurations, including epoch choices, and explored approaches to improve accuracy while addressing overfitting and underfitting. Understands the ML fundamentals involved but has not independently implemented the ResNet50 and Grad-CAM pipeline.",
+      "technologies": [
+        "Machine Learning Fundamentals",
+        "AI-Assisted Development"
+      ],
+      "recognition": "Grade A - Top 25%"
+    },
+    {
+      "title": "Open-Source Contribution - DevBoard",
+      "description": "Contributed a fix for task-order persistence in a MERN Kanban application by implementing column-wide task reindexing. Collaborated with maintainers through code review.",
+      "technologies": [
+        "React",
+        "MongoDB",
+        "JavaScript",
+        "Git"
+      ],
+      "recognition": "Merged Pull Request #32"
+    }
+  ],
+  "languages": [
+    "Hindi - Native",
+    "English - Professional Working Proficiency",
+    "Japanese - Elementary Proficiency"
+  ]
+}
